@@ -1,3 +1,6 @@
+# Demo app on Github Pages
+[Demo](https://kakkoiirus.github.io/cryptowatcher/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

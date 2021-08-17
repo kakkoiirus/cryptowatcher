@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/cryptowatcher/static/css/main.a617e044.chunk.css",
-    "main.js": "/cryptowatcher/static/js/main.a85d24bb.chunk.js",
-    "main.js.map": "/cryptowatcher/static/js/main.a85d24bb.chunk.js.map",
+    "main.js": "/cryptowatcher/static/js/main.a2cec3e8.chunk.js",
+    "main.js.map": "/cryptowatcher/static/js/main.a2cec3e8.chunk.js.map",
     "runtime-main.js": "/cryptowatcher/static/js/runtime-main.14cf1234.js",
     "runtime-main.js.map": "/cryptowatcher/static/js/runtime-main.14cf1234.js.map",
-    "static/js/2.cb17a0e0.chunk.js": "/cryptowatcher/static/js/2.cb17a0e0.chunk.js",
-    "static/js/2.cb17a0e0.chunk.js.map": "/cryptowatcher/static/js/2.cb17a0e0.chunk.js.map",
+    "static/js/2.380c68c8.chunk.js": "/cryptowatcher/static/js/2.380c68c8.chunk.js",
+    "static/js/2.380c68c8.chunk.js.map": "/cryptowatcher/static/js/2.380c68c8.chunk.js.map",
     "static/js/3.afe22c44.chunk.js": "/cryptowatcher/static/js/3.afe22c44.chunk.js",
     "static/js/3.afe22c44.chunk.js.map": "/cryptowatcher/static/js/3.afe22c44.chunk.js.map",
     "index.html": "/cryptowatcher/index.html",
     "static/css/main.a617e044.chunk.css.map": "/cryptowatcher/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.cb17a0e0.chunk.js.LICENSE.txt": "/cryptowatcher/static/js/2.cb17a0e0.chunk.js.LICENSE.txt"
+    "static/js/2.380c68c8.chunk.js.LICENSE.txt": "/cryptowatcher/static/js/2.380c68c8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.14cf1234.js",
-    "static/js/2.cb17a0e0.chunk.js",
+    "static/js/2.380c68c8.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.a85d24bb.chunk.js"
+    "static/js/main.a2cec3e8.chunk.js"
   ]
 }

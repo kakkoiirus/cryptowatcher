@@ -4,16 +4,18 @@ import {
   Route,
   Switch 
 } from 'react-router-dom';
-import NavBar from './components/NavBar';
+import MainPage from './pages/MainPage';
+import { CssBaseline } from '@material-ui/core';
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
-          <NavBar />
+        <Route exact path="/cryptowatcher">
+          <CssBaseline />
+          <MainPage />
         </Route>
-        <Route path="/login">
+        <Route path="/cryptowatcher/login">
           Login
         </Route>
         <Route>

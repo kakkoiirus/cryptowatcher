@@ -5,15 +5,13 @@ import Typography from '@material-ui/core/Typography'
 
 const NavBar = () => {
   return (
-    <React.Fragment>
-      <AppBar>
-        <Toolbar>
-          <Typography variant="title" color="inherit">
-              CryptoWatcher
-          </Typography>
-        </Toolbar>
-      </AppBar>
-    </React.Fragment>
+    <AppBar position="relative">
+      <Toolbar>
+        <Typography variant="title" color="inherit">
+            CryptoWatcher
+        </Typography>
+      </Toolbar>
+    </AppBar>
   )
 }
 

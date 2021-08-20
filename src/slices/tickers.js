@@ -3,43 +3,22 @@ import { createSlice } from '@reduxjs/toolkit';
 export const tickersSlice = createSlice({
   name: 'tickers',
   initialState: {
-    tickers: [
-      {
-        symbol: 'BTC',
-        price: '50200',
-      },
-      {
-        symbol: 'ETH',
-        price: '4200',
-      },
-      {
-        symbol: 'XMR',
-        price: '1200',
-      },
-      {
-        symbol: 'DOGE',
-        price: '1.4',
-      },
-      {
-        symbol: 'USDT',
-        price: '1',
-      },
-    ],
+    tickers: [],
   },
   reducers: {
-    addTicker: (state, action) => {
-      state.tickers.push(action.payload);
-    },
     updateTicker: (state, action) => {
       const { symbol, price } = action.payload;
       const ticker = state.tickers.find((t) => t.symbol === symbol);
+      if (!ticker) {
+        state.tickers.push(action.payload);
+        return;
+      }
       ticker.price = price;
     },
   },
 });
 
 export const {
-  addTicker,
   updateTicker,
 } = tickersSlice.actions;
 

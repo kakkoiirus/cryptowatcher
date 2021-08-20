@@ -6,6 +6,7 @@ import { updateTicker } from './slices/tickers';
 import App from './App.jsx';
 
 const API_KEY = '2d4f83e4dec4abd61adc8138b775853f144146a20dc4b330465d251fa4c6c517';
+const TICKER_LIST = ['BTC', 'ETH', 'DOGE'];
 
 export default () => {
   const store = configureStore({
@@ -23,12 +24,14 @@ export default () => {
   };
 
   socket.onopen = () => {
-    sendMessage(
-      {
-        action: 'SubAdd',
-        subs: ['5~CCCAGG~BTC~USD'],
-      },
-    );
+    TICKER_LIST.forEach((ticker) => {
+      sendMessage(
+        {
+          action: 'SubAdd',
+          subs: [`5~CCCAGG~${ticker}~USD`],
+        },
+      );
+    });
   };
 
   socket.onmessage = ({ data }) => {

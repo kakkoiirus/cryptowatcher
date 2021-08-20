@@ -1,11 +1,11 @@
-import './App.css';
-import { 
+import React from 'react';
+import {
   BrowserRouter as Router,
   Route,
-  Switch 
+  Switch,
 } from 'react-router-dom';
-import MainPage from './pages/MainPage';
 import { CssBaseline } from '@material-ui/core';
+import MainPage from './pages/MainPage.jsx';
 
 function App() {
   return (
